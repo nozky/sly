@@ -1,3 +1,4 @@
+
 import Head from 'next/head'
 import Header from '../components/Header'
 import Image from 'next/image'
@@ -6,6 +7,7 @@ import sly from '../assets/bg-image/sly.jpg'
 
 
 export default function Home() {
+
   return (
     <div className='h-screen flex flex-col items-center bg-gradient-to-b from-cyan-800 via-white'>
       <Head>
@@ -18,12 +20,11 @@ export default function Home() {
       
       <main className="h-full w-full">
         <div className=' relative w-full h-full text-slate-800' >
-          <Image src={sly} alt="Band Photo" layout='fill' objectFit='cover' placeholder='blur'/>
+          <Image src={sly} alt="Band Photo" layout='fill' placeholder='blur' className=' object-fill md:object-cover'/>
         </div>
       </main>
 
       <Footer />
-     
     </div>
   )
 }
