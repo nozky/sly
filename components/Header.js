@@ -1,15 +1,36 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Header = () => {
   return (
     <header className='py-4'>
-      <h1 className='flex justify-center py-4 text-white text-8xl font-Grape-Nuts '>SLY</h1>
+      <h1 className='flex justify-center py-4 text-cyan-200 drop-shadow-lg text-9xl font-Grape-Nuts'><Link href='/'>SLY</Link></h1>
         <ul className='space-x-4 flex'>
-          <li className=' cursor-pointer hover:underline'>Event</li>
-          <li className=' cursor-pointer hover:underline'>Blogs</li>
-          <li className=' cursor-pointer hover:underline'>Sponsors</li>
-          <li className=' cursor-pointer hover:underline'>Gallery</li>
-          <li className=' cursor-pointer hover:underline'>About</li>
+          <li className=' cursor-pointer hover:underline'>
+            <Link href='Event'>
+              <a>Event</a>
+            </Link>
+          </li>
+          <li className=' cursor-pointer hover:underline'>
+            <Link href='Blog'>
+              <a>Blogs</a>
+            </Link>
+          </li>
+          <li className=' cursor-pointer hover:underline'>
+            <Link href='Sponsors'>
+              <a>Sponsors</a>
+            </Link>
+          </li>
+          <li className=' cursor-pointer hover:underline'>
+            <Link href='Gallery'>
+              <p>Gallery</p>
+            </Link>
+          </li>
+          <li className=' cursor-pointer hover:underline'>
+            <Link href='About'>
+              <a>About</a>
+            </Link>
+          </li>
         </ul>
     </header>
   )

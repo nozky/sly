@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import Footer from '../components/Footer'
 import sly from '../assets/bg-image/sly.jpg'
 
@@ -17,9 +16,9 @@ export default function Home() {
 
       <Header />
       
-      <main className="h-full w-full bg-red-200">
-        <div className=' relative w-full h-full bg-red-100 text-slate-800' >
-          <Image src={sly} alt="Band Photo" layout='fill' objectFit='cover'/>
+      <main className="h-full w-full">
+        <div className=' relative w-full h-full text-slate-800' >
+          <Image src={sly} alt="Band Photo" layout='fill' objectFit='cover' placeholder='blur'/>
         </div>
       </main>
 
