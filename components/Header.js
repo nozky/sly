@@ -3,8 +3,8 @@ import Link from 'next/link'
 
 const Header = () => {
   return (
-    <header>
-      <h1 className='flex justify-center py-2 text-cyan-200 drop-shadow-lg text-6xl md:text-9xl font-Grape-Nuts'><Link href='/'>SLY</Link></h1>
+    <header className=' mb-4'>
+      {/* <h1 className='flex justify-center py-2 text-cyan-200 drop-shadow-lg text-6xl md:text-9xl font-Grape-Nuts'><Link href='/'>SLY</Link></h1> */}
         <ul className='space-x-4 flex py-2'>
           <li className=' cursor-pointer hover:underline'>
             <Link href='/Event'>

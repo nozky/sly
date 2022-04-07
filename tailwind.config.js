@@ -6,7 +6,6 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        // set font
         'Grape-Nuts': [ 'Grape Nuts', 'Roboto']
       }
     },

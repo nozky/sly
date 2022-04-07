@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import Image from 'next/image'
 import Footer from '../components/Footer'
-import sly from '../assets/bg-image/sly.jpg'
+import sly from '../assets/bg-image/sly-logo.png'
 
 
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
       
       <main className="h-full w-full">
         <div className=' relative w-full h-full text-slate-800' >
-          <Image src={sly} alt="Band Photo" layout='fill' placeholder='blur' className=' object-fill md:object-cover'/>
+          <Image src={sly} alt="Band Photo" layout='fill' placeholder='blur' className=' object-fill'/>
         </div>
       </main>
 
