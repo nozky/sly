@@ -1,11 +1,17 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
+import logo from '../assets/bg-image/sly-logo.png'
 
 const Header = () => {
   return (
-    <header className=' mb-4'>
-      {/* <h1 className='flex justify-center py-2 text-cyan-200 drop-shadow-lg text-6xl md:text-9xl font-Grape-Nuts'><Link href='/'>SLY</Link></h1> */}
-        <ul className='space-x-4 flex py-2'>
+    <header className='flex items-center justify-evenly w-full space-x-6 p-2'>
+        
+        <div className="relative w-36 h-36">
+          <Image src={logo} layout="fill" className='object-cover' />
+        </div>
+
+        <ul className='space-x-4 flex py-2 ml-auto'>
           <li className=' cursor-pointer hover:underline'>
             <Link href='/Event'>
               <a>Event</a>
@@ -32,6 +38,7 @@ const Header = () => {
             </Link>
           </li>
         </ul>
+
     </header>
   )
 }
