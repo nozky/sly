@@ -7,6 +7,10 @@ module.exports = {
     extend: {
       fontFamily: {
         'Grape-Nuts': [ 'Grape Nuts', 'Roboto']
+      },
+      colors: {
+        'royal': '#141e30',
+        'royal-light': '#243b55'
       }
     },
   },
