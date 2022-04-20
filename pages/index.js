@@ -24,9 +24,9 @@ export default function Home() {
         
         <div className='relative w-full h-[400px]'>
           <Image src={sly} layout='fill' objectFit='fill' alt='sly photo' />
-          <div className=' absolute flex flex-col text-slate-200 bottom-0 right-0 m-4'>
+          <div className=' absolute flex flex-col text-slate-200 bottom-0 left-0 m-4 bg-slate-900 bg-opacity-50 rounded-lg p-2'>
             <h2 className=' text-lg md:text-2xl mb-4 font-bold'>Band Information</h2>
-            <p className=' text-sm md:text-xl font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem illum tenetur obcaecati dignissimos eaque voluptatem consequatur! Qui cum dolorum incidunt voluptates iusto perferendis facilis rerum quas? Laudantium enim sed quia!</p>
+            <p className=' text-sm md:text-lg font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem illum tenetur obcaecati dignissimos eaque voluptatem consequatur! Qui cum dolorum incidunt voluptates iusto perferendis facilis rerum quas? Laudantium enim sed quia!</p>
           </div>
         </div>
 

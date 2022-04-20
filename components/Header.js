@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <header className='w-full flex p-6 justify-between items-center'>
         
-        <div className=' w-12'>
+        <div className=' w-16'>
           <Image src={logo} objectFit='contain' alt='sly Logo' />
         </div>
 
