@@ -20,7 +20,7 @@ const Header = () => {
     <header className='w-full flex p-6 justify-between items-center'>
         
         <div className=' w-12'>
-          <Image src={logo} objectFit='contain' />
+          <Image src={logo} objectFit='contain' alt='Sly Logo' />
         </div>
 
         <div className=' cursor-pointer p-2 z-20 md:hidden' onClick={()=>{
