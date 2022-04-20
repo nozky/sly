@@ -4,7 +4,7 @@ import Header from '../components/Header'
 import Image from 'next/image'
 import Footer from '../components/Footer'
 import Layout from '../components/Layout'
-import sly from '../assets/bg-image/bg1.png'
+import sly from '../assets/bg-image/sly.png'
 
 
 export default function Home() {
