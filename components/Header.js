@@ -33,9 +33,9 @@ const Header = () => {
           <ul className=' flex flex-col justify-center items-center w-full md:flex-row md:items-center'>
             <li className='p-2 hover:text-slate-500 cursor-pointer'>EVENTS</li>
             <li className='p-2 hover:text-slate-500 cursor-pointer'>GALLERY</li>
-            <li className='p-2 hover:text-slate-500 cursor-pointer'>BLOG'S</li>
+            <li className='p-2 hover:text-slate-500 cursor-pointer'>{"BLOG'S"}</li>
           </ul>
-          <button className='text-red-500 p-2 ml-2 md:border-2 border-slate-500 md:rounded-md'>CONTACT</button>
+          <button className='text-red-500 p-2 ml-2 md:border-2 border-slate-500 md:rounded-md hover:border-slate-600' >CONTACT</button>
         </nav>
 
     </header>
